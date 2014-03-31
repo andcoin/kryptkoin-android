@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="import_privkey_title">Impor kunci pribadi</string>
+    <string name="import_privkey_fragment_private_key">Kunci pribadi</string>
+    <string name="import_privkey_fragment_private_key_hint">Ketik kunci pribadi untuk mengimpor</string>
+    <string name="import_privkey_fragment_bip38">Sandi kunci pribadi</string>
+    <string name="import_privkey_fragment_bip38_hint">Ketik sandi BIP38</string>
+    <string name="import_privkey_fragment_bip38_required">Masukkan sandi</string>
+    <string name="import_privkey_fragment_bip38_warning">Mendekripsi kunci pribadi mungkin berlangsung lebih dari 1 menit</string>
+    <string name="import_privkey_fragment_bip38_error">Kata kunci yang dimasukkan salah. Silakan periksa dan coba lagi.</string>
+    <string name="import_privkey_button_import">Impor</string>
+    <string name="import_privkey_fragment_private_key_error">Silakan periksa apakah anda masukkan kunci pribadi yang valid dalam format WIF</string>
+    <string name="import_privkey_confirm">Mengimpor kunci pribadi memerlukan pengaturan ulang dan pengisian kembali Block Chain. Hal ini membutuhkan waktu beberapa menit.\n\nAnda tidak dapat menggunakan dompet selama waktu tersebut.</string>
+    <string name="import_privkey_decrypt">Dekripsi</string>
+    <string name="import_privkey_decrypting">Mendekripsi...</string>
 
 	<string name="toast_wallet_reset">Dompet diatur-ulang,\nakan memakan waktu utk dipulihkan</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Gunakan dlm resiko Anda. Baca &lt;u&gt;nota keamanan&lt;/u&gt;.</string>

@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <string name="import_privkey_title">Importa Chiave Privata</string>
+    <string name="import_privkey_fragment_private_key">Chiave Privata</string>
+    <string name="import_privkey_fragment_private_key_hint">digita la Chiave Privata da importare</string>
+    <string name="import_privkey_fragment_bip38">password Chiave Privata</string>
+    <string name="import_privkey_fragment_bip38_hint">digita la password BIP38</string>
+    <string name="import_privkey_fragment_bip38_required">Per favore inserisci la password</string>
+    <string name="import_privkey_fragment_bip38_warning">Decriptare una Chiave Privata può richiedere più di 1 minuto</string>
+    <string name="import_privkey_fragment_bip38_error">La password inserita è sbagliata. Per favore controllala e riprova.</string>
+    <string name="import_privkey_button_import">Importa</string>
+    <string name="import_privkey_fragment_private_key_error">Per favore controlla di aver inserito una Chiave Privata valida nel formato WIF</string>
+    <string name="import_privkey_confirm">Importare una Chiave Privata richiede il reset e reload della Block Chain. Può richiedere diversi minuti.\n\n Non potrai utilizzare il tuo portamonete durante questo tempo.</string>
+    <string name="import_privkey_decrypt">Decripta</string>
+    <string name="import_privkey_decrypting">Decriptando...</string>
 
 	<string name="toast_wallet_reset">Il portafoglio è stato reinizializzato,\noccorrerà del tempo per ripristinarlo</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Usalo a tuo rischio. Leggi le &lt;u&gt;avvertenze per la sicurezza&lt;/u&gt;.</string>

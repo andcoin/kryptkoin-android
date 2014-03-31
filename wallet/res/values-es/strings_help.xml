@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Import private key -->
+    <string name="help_import_privkey">
+<![CDATA[
+		<p>
+			Esta opción te permite importar una llave privada.
+		</p>
+		<p>
+			Suele usarse para redimir una Billetera de Papel o usar una Dirección de Vanidad.
+		</p>
+		<p>
+			Puedes crear una Billetera de Papel (Cold Storage) en <b>Preminer.com</b>.
+		</p>
+		<p>
+		    Ingresa la Llave Privada que deseas importar,
+		    o toca el ícono de la cámara para escanear un código QR.
+		    Luego, selecciona \'Importar\'.
+		</p>
+		<p>
+		    <b>Atención</b>
+		    Importar una llave privada require reiniciar la cartera.
+		    Esto tomará varios minutos.
+		</p>
+		<p>
+		    Sólo puedes importar llaves en <b>formato WIF</b>
+		    (51 caracteres en base58, comenzando en \'5\')
+		    o claves encriptadas con BIP38.
+		</p>
+	]]>
+	</string>
 
 	<string name="help_wallet">
 <![CDATA[

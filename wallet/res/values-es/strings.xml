@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+    <!-- Import PrivKey Fragment -->
+    <string name="import_privkey_title">Importar llave privada</string>
+    <string name="import_privkey_fragment_private_key">Llave privada</string>
+    <string name="import_privkey_fragment_private_key_hint">ingresa la llave privada</string>
+    <string name="import_privkey_fragment_bip38">Contraseña de la llave</string>
+    <string name="import_privkey_fragment_bip38_hint">ingresa la clave BIP38</string>
+    <string name="import_privkey_fragment_bip38_required">Por favor ingresa la contraseña</string>
+    <string name="import_privkey_fragment_bip38_warning">Desencriptar una llave privada puede tomar más de un minuto</string>
+    <string name="import_privkey_fragment_bip38_error">La clave es incorrecta. Revísala e intenta de nuevo.</string>
+    <string name="import_privkey_button_import">Importar</string>
+    <string name="import_privkey_fragment_private_key_error">Verifica que ingresaste una llave válida en formato WIF</string>
+    <string name="import_privkey_confirm">Importar una llave privada require reiniciar la cartera.\n\nEsto tomará varios minutos.</string>
+    <string name="import_privkey_decrypt">Desencriptar</string>
+    <string name="import_privkey_decrypting">Desencriptando...</string>
 
 	<string name="toast_wallet_reset">La cartera se ha reiniciado\ny tardará un poco en reactivarse</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Utilízalo bajo tu propio riesgo. Lee las &lt;u&gt;notas de seguridad&lt;/u&gt;.</string>
@@ -34,7 +48,7 @@
 	<string name="wallet_transactions_fragment_coinbase">minados</string>
 	<string name="wallet_transactions_fragment_internal">interno</string>
 	<string name="wallet_transactions_context_show_qr_title">Mostrar código QR</string>
-	<string name="wallet_options_backup">Respaldo de claves</string>
+	<string name="wallet_options_backup">Respaldar/Importar claves</string>
 	<string name="wallet_options_safety">Notas de seguridad</string>
 	<string name="wallet_options_donate">Donaciones</string>
 	<string name="wallet_donate_address_label">Donación para Premine Wallet</string>
